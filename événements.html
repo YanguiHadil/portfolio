@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evenement.css">
+    <title>Evenements</title>
+</head>
+<body>
+    <header>
+      <h1>Bienvenue sur Mon Site Web</h1>
+    </header>
+   
+      <nav>
+        <ul>
+          <li><a id="accueil" href="index.html" class="nav-item">Accueil</a></li>
+          <li><a id="parcours" href="parcours.html" class="nav-item">Parcours Académique</a></li>
+          <li><a id="competences" href="Compétences.html" class="nav-item">Compétences Informatique</a></li>
+          <li><a id="events" href="événements.html" class="nav-item">Evénements</a> </li>
+          <li><a id="matieres" href="Matières.html" class="nav-item">Les matiéres étudiées</a></li>
+          <li><a id="quiz" href="Quiz.html" class="nav-item">Quiz</a></li>
+          <li><a id="contact" href="Contact.html" class="nav-item">Contactez-moi</a></li>
+          <li><a id="iit" href="https://iit.tn/" class="nav-item">Témoignage_IIT</a></li>
+        </ul>
+      </nav>
+    <main>
+      <div class="skills-container">
+        <h1>Les événements auxquels je participe</h1>
+        <div class="skills-grid">
+          <div class="skill-item" onclick="showLightbox('images/évenements/IMG-20241124-WA0003.jpg')">
+            <img src="images/évenements/IMG-20241124-WA0003.jpg" alt=" 1">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/IMG-20241124-WA0004.jpg')">
+            <img src="images/évenements/IMG-20241124-WA0004.jpg" alt=" 2">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/IMG-20241124-WA0008.jpg')">
+            <img src="images/évenements/IMG-20241124-WA0008.jpg" alt=" 3">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/IMG20240906182459.jpg')">
+            <img src="images/évenements/IMG20240906182459.jpg" alt=" 4">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/IMG20241008194821.jpg')">
+            <img src="images/évenements/IMG20241008194821.jpg" alt=" 5">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Messenger_creation_8F77B54E-6D71-4F51-966E-4CAF6C93A5DD.png')">
+            <img src="images/évenements/Messenger_creation_8F77B54E-6D71-4F51-966E-4CAF6C93A5DD.png" alt=" 6">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Screenshot_2024-09-06-19-23-54-03_a23b203fd3aafc6dcb84e438dda678b6.jpg')">
+            <img src="images/évenements/Screenshot_2024-09-06-19-23-54-03_a23b203fd3aafc6dcb84e438dda678b6.jpg" alt=" 7">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Screenshot_2024-09-30-20-21-44-40_1c337646f29875672b5a61192b9010f9.jpg')">
+            <img src="images/évenements/Screenshot_2024-09-30-20-21-44-40_1c337646f29875672b5a61192b9010f9.jpg" alt=" 8">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Screenshot_2024-09-30-20-22-04-24_1c337646f29875672b5a61192b9010f9.jpg')">
+            <img src="images/évenements/Screenshot_2024-09-30-20-22-04-24_1c337646f29875672b5a61192b9010f9.jpg" alt=" 9">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Screenshot_2024-09-30-20-22-35-09_1c337646f29875672b5a61192b9010f9.jpg')">
+            <img src="images/évenements/Screenshot_2024-09-30-20-22-35-09_1c337646f29875672b5a61192b9010f9.jpg" alt=" 10">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Snapchat-1902224687.jpg')">
+            <img src="images/évenements/Snapchat-1902224687.jpg" alt=" 11">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Snapchat-703159787.jpg')">
+            <img src="images/évenements/Snapchat-703159787.jpg" alt=" 12">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/évenements/Snapchat-736316008.jpg')">
+            <img src="images/évenements/Snapchat-736316008.jpg" alt=" 13">
+          </div>
+        </div>
+        <div id="lightbox" class="lightbox" onclick="hideLightbox()">
+          <img id="lightbox-img" src="" alt="Agrandissement">
+        </div>
+      
+        <script src="script.js"></script>
+      </div>
+    </main>
+
+</body>
+</html>

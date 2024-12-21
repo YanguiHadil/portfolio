@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="competences.css">
+    <title>Compétences</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site Web</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a id="accueil" href="index.html" class="nav-item">Accueil</a></li>
+          <li><a id="parcours" href="parcours.html" class="nav-item">Parcours Académique</a></li>
+          <li><a id="competences" href="Compétences.html" class="nav-item">Compétences Informatique</a></li>
+          <li><a id="events" href="événements.html" class="nav-item">Evénements</a> </li>
+          <li><a id="matieres" href="Matières.html" class="nav-item">Les matiéres étudiées</a></li>
+          <li><a id="quiz" href="Quiz.html" class="nav-item">Quiz</a></li>
+          <li><a id="contact" href="Contact.html" class="nav-item">Contactez-moi</a></li>
+          <li><a id="iit" href="https://iit.tn/" class="nav-item">Témoignage_IIT</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="skills-container">
+          <h1>Mes Compétences Informatiques</h1>
+          <div class="skills-grid">
+            <div class="skill-item" onclick="showLightbox('images/Compétences/c.png')">
+              <img src="images/Compétences/c.png" alt="Compétence 1">
+              <p>Programmation C</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/web.png')">
+              <img src="images/Compétences/web.png" alt="Compétence 2">
+              <p>Développement Web</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/bd.png')">
+              <img src="images/Compétences/bd.png" alt="Compétence 3">
+              <p>Bases de Données</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/python1.png')">
+              <img src="images/Compétences/python1.png" alt="Compétence 4">
+              <p>Python</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/python2.png')">
+              <img src="images/Compétences/python2.png" alt="Compétence 5">
+              <p>Python</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/python3.png')">
+              <img src="images/Compétences/python3.png" alt="Compétence 6">
+              <p>Python</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/turtle1.png')">
+              <img src="images/Compétences/turtle1.png" alt="Compétence 7">
+              <p>Python_turtle</p>
+            </div>
+            <div class="skill-item" onclick="showLightbox('images/Compétences/turtle2.png')">
+              <img src="images/Compétences/turtle2.png" alt="Compétence 8">
+              <p>Python_turtle</p>
+            </div>
+          </div>
+          <div id="lightbox" class="lightbox" onclick="hideLightbox()">
+            <img id="lightbox-img" src="" alt="Agrandissement">
+          </div>
+        
+          <script src="script.js"></script>
+        </div>
+      </main>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="matieres.css">
+    <title>Matières</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site Web</h1>
+      </header>
+   
+      <nav>
+        <ul>
+          <li><a id="accueil" href="index.html" class="nav-item">Accueil</a></li>
+          <li><a id="parcours" href="parcours.html" class="nav-item">Parcours Académique</a></li>
+          <li><a id="competences" href="Compétences.html" class="nav-item">Compétences Informatique</a></li>
+          <li><a id="events" href="événements.html" class="nav-item">Evénements</a> </li>
+          <li><a id="matieres" href="Matières.html" class="nav-item">Les matiéres étudiées</a></li>
+          <li><a id="quiz" href="Quiz.html" class="nav-item">Quiz</a></li>
+          <li><a id="contact" href="Contact.html" class="nav-item">Contactez-moi</a></li>
+          <li><a id="iit" href="https://iit.tn/" class="nav-item">Témoignage_IIT</a></li>
+        </ul>
+      </nav>
+    <main>
+      <div class="skills-container">
+        <h1>Matières que j'ai étudiées</h1>
+        <div class="skills-grid">
+          <div class="skill-item" onclick="showLightbox('images/matières/1.jpg')">
+            <img src="images/matières/1.jpg" alt=" 1">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/2.jpg')">
+            <img src="images/matières/2.jpg" alt=" 2">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/3.jpg')">
+            <img src="images/matières/3.jpg" alt=" 3">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/4.jpg')">
+            <img src="images/matières/4.jpg" alt=" 4">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/5.jpg')">
+            <img src="images/matières/5.jpg" alt=" 5">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/6.jpg')">
+            <img src="images/matières/6.jpg" alt=" 6">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/7.jpg')">
+            <img src="images/matières/7.jpg" alt=" 7">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/8.jpg')">
+            <img src="images/matières/8.jpg" alt=" 8">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/9.jpg')">
+            <img src="images/matières/9.jpg" alt=" 9">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/10.jpg')">
+            <img src="images/matières/10.jpg" alt=" 10">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/11.jpg')">
+            <img src="images/matières/11.jpg" alt=" 11">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/12.jpg')">
+            <img src="images/matières/12.jpg" alt=" 12">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/13.jpg')">
+            <img src="images/matières/13.jpg" alt=" 13">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/14.jpg')">
+            <img src="images/matières/14.jpg" alt=" 14">
+          </div>
+          <div class="skill-item" onclick="showLightbox('images/matières/15.jpg')">
+            <img src="images/matières/15.jpg" alt=" 15">
+          </div>
+        </div>
+        <div id="lightbox" class="lightbox" onclick="hideLightbox()">
+          <img id="lightbox-img" src="" alt="Agrandissement">
+        </div>
+      
+        <script src="script.js"></script>
+      </div>
+    </main>
+</body>
+</html>
